@@ -131,7 +131,12 @@ button{
     font-size: 11px;
 }
 
-.input{
+input{
     border: solid 1px whitesmoke;
     box-shadow: 0px 0px 10px 3px var(--highlight-color);
+}
+
+input:valid{
+    border: solid 1px green;
+    box-shadow: 0px 0px 10px 3px greenyellow;
 }
